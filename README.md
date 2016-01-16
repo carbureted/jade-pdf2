@@ -1,17 +1,15 @@
-jade-pdf-redline [![Build Status](https://travis-ci.org/redpelicans/jade-pdf-redline.png)](https://travis-ci.org/redpelicans/jade-pdf-redline) [![Dependency Status](https://david-dm.org/redpelicans/jade-pdf-redline.png)](https://david-dm.org/redpelicans/jade-pdf-redline) [![Coverage Status](https://coveralls.io/repos/redpelicans/jade-pdf-redline/badge.png?branch=master)](https://coveralls.io/r/redpelicans/jade-pdf-redline?branch=master)
-===
+Node module that converts jade files to PDFs. Fork of the awesome https://www.npmjs.com/package/jade-pdf-redline, since it wasn't being updated and had a show-stopping CSS bug.
 
-Node module that converts jade files to PDFs.  
-> https://npmjs.org/package/jade-pdf-redline
+> https://npmjs.org/package/jade-pdf2
 
 ## Getting started
 
-    npm install jade-pdf-redline
+    npm install jade-pdf2
 
 ## Usage
 
 ```javascript
-var jadepdf = require('jade-pdf-redline')
+var jadepdf = require('jade-pdf2')
   , fs = require('fs');
 
 fs.createReadStream('path/to/template.jade')
@@ -62,9 +60,9 @@ Default value: `{}`
 
 ### Installation
 
-To use jade-pdf-redline as a standalone program from the terminal run
+To use jade-pdf2 as a standalone program from the terminal run
 
-    $ npm install -g jade-pdf-redline
+    $ npm install -g jade-pdf2
 
 ### Usage
 
@@ -99,7 +97,7 @@ Then run the tests:
 
 The MIT License (MIT)
 
-Copyright (c) 2014 redpelicans
+Copyright (c) 2016 Eason Goodale
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in

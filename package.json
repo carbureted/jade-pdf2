@@ -1,7 +1,7 @@
 {
-  "name": "jade-pdf-redline"
-, "version": "0.0.2"
-, "description": "Jade to PDF converter"
+  "name": "jade-pdf2"
+, "version": "0.0.3"
+, "description": "Converts Jade files to PDF"
 , "main": "index.js"
 , "keywords": [
     "jade"
@@ -9,18 +9,18 @@
   , "convert"
   , "template"
   ]
-, "author": "Tom Ripley"
-, "homepage": "htps://github.com/redpelicans/jade-pdf-redline"
+, "author": "Eason Goodale"
+, "homepage": "https://github.com/carbureted/jade-pdf2"
 , "repository": {
     "type": "git"
-  , "url": "git@github.com:redpelicans/jade-pdf-redline.git"
+  , "url": "git@github.com:carbureted/jade-pdf2.git"
   }
 , "bugs": {
-    "url": "https://github.com/redpelicans/jade-pdf-redline/issues"
+    "url": "https://github.com/carbureted/jade-pdf2/issues"
   }
 , "licenses": {
     "type": "MIT"
-  , "url": "https://github.com/redpelicans/jade-pdf-redline/blob/master/LICENSE"
+  , "url": "https://github.com/carbureted/jade-pdf2/blob/master/LICENSE"
   }
 , "dependencies": {
     "through": "~2.3.4"
