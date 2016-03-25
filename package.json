@@ -1,6 +1,6 @@
 {
   "name": "jade-pdf2",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Converts Jade files to PDF",
   "main": "index.js",
   "keywords": [
