@@ -1,51 +1,51 @@
 {
-  "name": "jade-pdf2"
-, "version": "0.0.3"
-, "description": "Converts Jade files to PDF"
-, "main": "index.js"
-, "keywords": [
-    "jade"
-  , "pdf"
-  , "convert"
-  , "template"
-  ]
-, "author": "Eason Goodale"
-, "homepage": "https://github.com/carbureted/jade-pdf2"
-, "repository": {
-    "type": "git"
-  , "url": "git@github.com:carbureted/jade-pdf2.git"
-  }
-, "bugs": {
+  "name": "jade-pdf2",
+  "version": "0.0.3",
+  "description": "Converts Jade files to PDF",
+  "main": "index.js",
+  "keywords": [
+    "jade",
+    "pdf",
+    "convert",
+    "template"
+  ],
+  "author": "Eason Goodale",
+  "homepage": "https://github.com/carbureted/jade-pdf2",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:carbureted/jade-pdf2.git"
+  },
+  "bugs": {
     "url": "https://github.com/carbureted/jade-pdf2/issues"
-  }
-, "licenses": {
-    "type": "MIT"
-  , "url": "https://github.com/carbureted/jade-pdf2/blob/master/LICENSE"
-  }
-, "dependencies": {
-    "through": "~2.3.4"
-  , "jade": "~1.1.5"
-  , "phantomjs": "~1.9.7-1"
-  , "tmp": "~0.0.23"
-  , "duplexer": "~0.1.1"
-  , "commander": "~2.1.0"
-  }
-, "devDependencies": {
-    "mocha": "latest"
-  , "mocha-lcov-reporter": "latest"
-  , "should": "latest"
-  , "coveralls": "latest"
-  , "jscoverage": "latest"
-  , "jshint": "latest"
-  }
-, "engines": {
+  },
+  "licenses": {
+    "type": "MIT",
+    "url": "https://github.com/carbureted/jade-pdf2/blob/master/LICENSE"
+  },
+  "dependencies": {
+    "commander": "~2.1.0",
+    "duplexer": "~0.1.1",
+    "jade": "~1.1.5",
+    "phantomjs": "^2.1.3",
+    "through": "~2.3.4",
+    "tmp": "~0.0.23"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "mocha-lcov-reporter": "latest",
+    "should": "latest",
+    "coveralls": "latest",
+    "jscoverage": "latest",
+    "jshint": "latest"
+  },
+  "engines": {
     "node": "~0.10.0"
-  }
-, "scripts": {
-    "test": "make test"
-  , "coveralls": "make test-coveralls"
-  }
-, "bin": {
+  },
+  "scripts": {
+    "test": "make test",
+    "coveralls": "make test-coveralls"
+  },
+  "bin": {
     "jade-pdf": "bin/jade-pdf"
   }
 }

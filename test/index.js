@@ -31,6 +31,7 @@ function helper(path, done) {
 
 describe('simple jade file without locals to pdf', function() {
   it('should generate a non-empty PDF', function(done) {
+    this.timeout(5000);
     helper('/simple.jade', done);
   });
 });
